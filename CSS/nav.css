@@ -1,0 +1,57 @@
+nav{
+    position:fixed;
+    z-index: 200;
+    width:100%;
+    height:80px;
+    background-color: #F4F3F3;
+
+}
+#nav_button_container{
+    position:absolute;
+    top:50%;
+    left:5%;
+    transform:translateY(-50%);
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#nav_button_container > h2{
+    display:inline;
+    height: 100%;
+    margin-left: 20px;
+    text-align: center;
+}
+
+nav img{
+    width:24px;
+
+    vertical-align :middle;
+}
+
+#nav_logo{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translateX(-50%);
+    transform:translateY(-50%);
+
+}
+
+#nav_logo > h1{
+    font-family: "jua";
+    margin:0px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+#nav_icon_container{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    right:5%;
+}
+
+#nav_icon_container img{
+    margin-left:20px;
+}

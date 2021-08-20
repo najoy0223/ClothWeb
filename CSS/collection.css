@@ -1,0 +1,62 @@
+#collection{
+    width:100%;
+    height:100%;
+    background-color:white;
+
+}
+
+#for_women{
+    width:800px;
+    height:50%;
+    background-color:white;
+    margin:0 auto;
+}
+
+#for_women_desc{
+    position:absolute;
+   right: 360px;
+}
+
+#for_women_desc>h3{
+    color:slategrey;
+}
+
+#Collection_first_button{
+    background-color: black;
+    color:rgb(255,255,255);
+    width:150px;
+    height:50px;
+    position:absolute;
+    top:160px;
+    right:120px;
+}
+
+#for_men{
+    position:absolute;
+    width:800px;
+    height:50%;
+    background-color:white;
+    left:50%;
+    right:50%;
+    transform:translateX(-50%);
+
+}
+
+#for_men_desc{
+    position:absolute;
+    bottom:88px;
+}
+
+#for_men_desc>h3{
+    color:slategrey;
+}
+
+#Collection_second_button{
+    background-color: black;
+    color:rgb(255,255,255);
+    width:150px;
+    height:50px;
+    position:absolute;
+    top:160px;
+    left:120px;
+}
