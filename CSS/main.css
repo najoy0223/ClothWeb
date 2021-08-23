@@ -43,7 +43,14 @@
     right:64px;
 }
 
-
+#main_model{
+    position:absolute;
+    width:600px;
+    height:auto;
+    bottom:0px;
+    left:50%;
+    transform:translate(-50%);
+}
 
 
 

@@ -1,33 +1,74 @@
-#sale_information{
+#sale{
     width:100%;
-    height:100%;
+    height:400px;
+    margin-bottom: 240px;
     background-color:white;
-    margin:0 auto;
-    position:relative;
 }
 
-#container{
-    width:800px;
-    height:480px;
-    background-color: chartreuse;
-    position:absolute;
-    top:0;
-    right:0;
-    left:0;
-    bottom:0;
+#sale_innerbox{
+    position: relative;
+    width:80%;
+    height:100%;
     margin:0 auto;
-    top: 50%; 
-    transform:translateY(-50%);
-    }
+    display: flex;
+    flex-direction: row;
+}
 
 #sale_desc_container{
-    width:400px;
-    height:480px;
-    background-color:honeydew;
-    position:absolute;
+    position: relative;
+    width: 60%;
+    height:100%;
 }
 
-#First_desc{
+#sale_desc_container .sale_rectangle_background {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 60%;
+    background-color:#F4F3F3;
+}
+
+#sale_desc_container img {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    z-index: 1000;
+}
+
+#sale_desc_container .sale_desc_wrapper {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+#sale_desc_another_container .sale_rectangle_background {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 60%;
+    background-color:#e5e5e5;
+}
+
+#sale_desc_another_container img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 240px;
+    height: auto;
+    z-index: 100;
+}
+
+#sale_desc_another_container .sale_desc_wrapper {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* #First_desc{
     position:absolute;
     right:24px;
     bottom:56;
@@ -42,17 +83,15 @@
     color:rgb(255,255,255);
     width:150px;
     height:50px;
+} */
+
+#sale_desc_another_container{
+    position: relative;
+    flex: 1;
+    height:400px;
 }
 
-#another_sale_desc_container{
-    width:400px;
-    height:480px;
-    background-color:lightgrey;
-    position:absolute;
-    right:0
-}
-
-#Second_desc{
+/* #Second_desc{
     position:absolute;
     top:32px;
     left:32px;
@@ -67,4 +106,4 @@
     color:rgb(255,255,255);
     width:150px;
     height:50px;
-}
+} */

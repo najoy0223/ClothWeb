@@ -37,7 +37,7 @@
     
             <h1 id="main_background_text">VOLLIN</h1>
 
-            <img src="Image/check.JPG" style='position:absolute; top:14%;left:35%;z-index:100;' >
+            <img  src="Image/model.png" id="main_model">
         
             <div id="main_desc_container">
                 <h3>Chambray Dresses</h3>
@@ -102,27 +102,17 @@
                 </div>
                 <table id="gallery_img_container">
                     <tbody>
-                        <!-- <div id="first_line">
-                            <img src="Image/img_container_wrapper/jacket.JPG" style='position:absolute;width:200px;height:240px;margin:3%;'>
-                            <img src="Image/img_container_wrapper/set.JPG" style='position:absolute;width:200px;height:240px;margin:3%;right:0%;'>
-                        </div>
-                        <div id="second_line">
-                            <img src="Image/img_container_wrapper/shirt.JPG" style='position:absolute; width:200px;height:240px; margin:3%; '>
-                            <img src="Image/img_container_wrapper/pants.JPG" style='position:absolute;width:200px;height:240px; margin:3%; '>
-                        </div> -->
-                        <!--<div><img src="Image/img_container_wrapper/mlb.jpg" style='position:absolute;width:100px;height:100px; '>
-                        <img src="Image/img_container_wrapper/skirt.JPG" style='position:absolute;width:100px;height:100px;'></div>-->
-                        <tr style="background-color: beige;">
-                            <!-- <td><img src="Image/img_container_wrapper/skirt.JPG"></td>
-                            <td><img src="Image/img_container_wrapper/skirt.JPG"></td> -->
+                       <tr>
+                            <td style="background-image: url('./Image/img_container_wrapper/skirt.JPG');"></td>
+                            <td style="background-image: url('./Image/img_container_wrapper/skirt.JPG');"></td>
                         </tr>
                         <tr>
-                            <!-- <img src="Image/img_container_wrapper/skirt.JPG">
-                            <img src="Image/img_container_wrapper/skirt.JPG"> -->
+                            <td style="background-image: url('./Image/img_container_wrapper/skirt.JPG');"></td>
+                            <td style="background-image: url('./Image/img_container_wrapper/skirt.JPG');"></td>
                         </tr>
                         <tr>
-                            <!-- <img src="Image/img_container_wrapper/skirt.JPG">
-                            <img src="Image/img_container_wrapper/skirt.JPG"> -->
+                            <td style="background-image: url('./Image/img_container_wrapper/skirt.JPG');"></td>
+                            <td style="background-image: url('./Image/img_container_wrapper/skirt.JPG');"></td>
                         </tr>
                     </table>
                 </table>
@@ -131,63 +121,52 @@
             <button id="gallery_img_container_button">SEE MORE</button>
         </div>
 
-
-
-
         <!-- p.3-->
-        <div id="sale_information">
-            <div id="container">    
+        <div id="sale">
+            <div id="sale_innerbox">    
                 <div id="sale_desc_container">
-                    <img src="Image/brown.jpg" style='width:300px; height:480px;top:40%;'>
-                    <div id="First_desc">  
-                        <h2>UP TO 50% OFF</h2> 
-                        <div id="First_desc_h3">
+                    <div class="sale_rectangle_background">
+                        <div class="sale_desc_wrapper">
+                            <h2>UP TO 50% OFF</h2> 
                             <h3>SUMMER&SPRING</h3>
-                        </div>    
-                        <button id="First_desc_button">SHOP NOW</button>
-                    </div> 
-                </div>    
-                <div id="another_sale_desc_container">
-                    <img src="Image/img_etc_container/bag.jpg" style='position:absolute; width:240px; height:240px;bottom:0;right:0;'>
-                    <div id="Second_desc">
-                        <h2>UP TO 40% OFF</h2>
-                        <div id="Second_desc_h3">
-                            <h3>WOMEN BAGS</h3>
-                        </div>
-                    <button id="Second_desc_button">SHOP NOW</button>
+                            <button>SHOP NOW</button>
+                        </div> 
                     </div>
+
+                    <img src="Image/brown.jpg">
+                </div>    
+                <div id="sale_desc_another_container">
+                    <div class="sale_rectangle_background">
+                        <div class="sale_desc_wrapper">
+                            <h2>UP TO 40% OFF</h2>
+                            <h3>WOMEN BAGS</h3>
+                            <button>SHOP NOW</button>
+                        </div>
+                    </div>
+                    <img src="Image/img_etc_container/bag.jpg">
                 </div>  
             </div>
         </div>
                 
         <!--p.4-->
-        <div id="COLLECTION">
-            <div id="for_women">
-                <img src="Image/collection/women.jpg" style='position:absolute;width:320px;height:50%;'>
-                <div id="for_women_desc">
-                    <h1>WOMEN COLLECTION</h1>
-                    <h3>NEW PRODUCT</h3>
-                    <button id="Collection_first_button">SHOP NOW</button>
-                </div>
-            </div>
+        <div id="collection">
+            <div id="collection_innerbox">
+                <img id="collection_women_img" src="Image/collection/women.jpg">
+                <img id="collection_men_img" src="Image/collection/men.jpg">
 
-            <div id="for_men">
-                <img src="Image/collection/men.jpg" style='position:absolute;width:320px;height:331px;right:0px;'>
-                <div id="for_men_desc">
-                    <h1>MEN COLLECTION</h1>
+                <div id="collection_women_desc_container">
+                    <h2>WOMEN COLLECTION</h2>
                     <h3>NEW PRODUCT</h3>
-                    <button id="Collection_second_button">SHOP NOW</button>
+                    <button>SHOP NOW</button>
+                </div>
+
+                <div id="collection_men_desc_container">
+                    <h2>MEN COLLECTION</h2>
+                    <h3>NEW PRODUCT</h3>
+                    <button>SHOP NOW</button>
                 </div>
             </div>
         </div>    
-            
-        
-        
-        
-           
-        
-
-        
-
+                
     </body>
 </html>

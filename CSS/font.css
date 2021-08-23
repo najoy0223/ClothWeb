@@ -3,7 +3,49 @@
     font-family: "jua";
 }
 
+/* @font-face{
+    src : url("../Font/NotoSans-Light.ttf");
+    font-family: "NotoSans-Light";
+}
+
 @font-face{
     src : url("../Font/NotoSans-Regular.ttf");
     font-family: "NotoSans-Regular";
 }
+
+@font-face{
+    src : url("../Font/NotoSans-Bold.ttf");
+    font-family: "NotoSans-Bold";
+} */
+
+@font-face{
+    src : url("../Font/NotoSansKR-Black.otf");
+    font-family: "NotoSansKR-Black";
+}
+
+@font-face{
+    src : url("../Font/NotoSansKR-Bold.otf");
+    font-family: "NotoSans-Bold";
+}
+
+@font-face{
+    src : url("../Font/NotoSansKR-Light.otf");
+    font-family: "NotoSansKR-Light";
+}
+
+@font-face{
+    src : url("../Font/NotoSansKR-Medium.otf");
+    font-family: "/NotoSansKR-Medium";
+}
+
+@font-face{
+    src : url("../Font/NotoSansKR-Regular.otf");
+    font-family: "NotoSansKR-Regular";
+}
+
+@font-face{
+    src : url("../Font/NotoSansKR-Thin.otf");
+    font-family: "NotoSansKR-Thin";
+}
+
+

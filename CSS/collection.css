@@ -1,27 +1,74 @@
 #collection{
     width:100%;
-    height:100%;
+    height:144%;
     background-color:white;
-
 }
 
-#for_women{
-    width:800px;
-    height:50%;
-    background-color:white;
-    margin:0 auto;
+#collection_innerbox {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
 }
 
-#for_women_desc{
-    position:absolute;
-   right: 360px;
+#collection_women_img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: auto;
+    height: 600px;
 }
 
-#for_women_desc>h3{
-    color:slategrey;
+#collection_men_img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: auto;
+    height: 600px;
 }
 
-#Collection_first_button{
+#collection_women_desc_container {
+    position: absolute;
+    top: 120px;
+    right: 60px;
+}
+
+#collection_men_desc_container {
+    position: absolute;
+    bottom: 120px;
+    left: 60px;
+}
+
+#collection h2 {
+    margin: 0px;
+    font-family:"NotoSansKR-Regular" ;
+    font-size: 72px;
+    letter-spacing: 2px;
+}
+
+#collection h3 {
+    margin: 0px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-family: "NotoSansKR-Light";
+}
+
+#collection_men_desc_container h3 {
+    text-align: right;
+}
+
+#collection button {
+    display: block;
+    margin:  0 auto;
+    width: 160px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+/* #Collection_first_button{
     background-color: black;
     color:rgb(255,255,255);
     width:150px;
@@ -33,7 +80,7 @@
 
 #for_men{
     position:absolute;
-    width:800px;
+    width:80%;
     height:50%;
     background-color:white;
     left:50%;
@@ -59,4 +106,4 @@
     position:absolute;
     top:160px;
     left:120px;
-}
+} */
